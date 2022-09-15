@@ -3,6 +3,7 @@ import MainpageLayout from "../components/MainpageLayout";
 
 const Home = () => {
   const [input, setInput] = useState("");
+  
   const onSearch = () => {
     //https://api.tvmaze.com/search/shows?q=men
 
@@ -19,6 +20,7 @@ const Home = () => {
     if(ev.keyCode===13){
       onSearch()
     }
+    console.log(ev.keyCode);
   };
   return (
     <MainpageLayout>
