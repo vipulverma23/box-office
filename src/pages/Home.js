@@ -3,6 +3,7 @@ import MainpageLayout from "../components/MainpageLayout";
 import { apiGet } from "../misc/config";
 import ShowGrid from "../components/show/ShowGrid";
 import ActorGrid from "../components/actor/ActorGrid";
+
 const Home = () => {
   const [input, setInput] = useState("");
   const [results, setResults] = useState(null);
