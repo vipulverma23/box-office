@@ -2,8 +2,8 @@ import React from "react";
 import { useLocation } from "react-router";
 import { NavList, LinkStyled } from "./Navs.styled";
 const LINKS = [
-  { to: "/", text: "home" },
-  { to: "/starred", text: "starred" },
+  { to: "/", text: "Home" },
+  { to: "/starred", text: "Starred" },
 ];
 
 const Navs = () => {
